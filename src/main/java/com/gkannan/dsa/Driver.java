@@ -8,8 +8,6 @@ import java.util.Scanner;
 public class Driver {
 
     public static void main(String[] args){
-        Double d= 8.96543789;
-        BigDecimal bd = new BigDecimal(d).setScale(5, RoundingMode.HALF_EVEN);
 
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a double number: ");
